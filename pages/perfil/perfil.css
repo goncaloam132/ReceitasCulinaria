@@ -1,0 +1,47 @@
+body {
+    background-color: #f8f9fa; /* Cor de fundo do Bootstrap */
+    padding: 10px; /* Adicione algum espaçamento ao redor do conteúdo */
+    margin: 0;
+}
+h1 {
+    margin-bottom: 20px;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li {
+    margin-bottom: 20px;
+}
+a {
+    text-decoration: none;
+}
+
+.ver-receita-btn {
+    padding: 4px 8px; 
+    font-size: 12px; 
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-up {
+    animation: fadeUp 1.5s ease-out;
+}
+
+.h-custom {
+    height: calc(100vh - 70px); 
+    overflow-y: auto; 
+}
+
+.h-custom {
+    margin-bottom: 70px; /* Altura do footer */
+}

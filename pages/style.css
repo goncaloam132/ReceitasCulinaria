@@ -1,0 +1,50 @@
+.imagem-receita {
+    max-width: 400px; /* Largura máxima desejada */
+    max-height: 300px; /* Altura máxima desejada */
+    overflow: hidden; /* Para garantir que as imagens não ultrapassem os limites especificados */
+}
+
+.imagem-receita img {
+    max-width: 400px; /* Largura máxima desejada */
+    max-height: 300px; /* Altura máxima desejada */
+    width: 100%; /* Para garantir que a imagem não ultrapasse o contêiner pai */
+    height: auto; /* Para manter a proporção original da imagem */
+    display: block; /* Remover espaços extras abaixo da imagem */
+    margin: 0 auto; /* Centralizar a imagem no contêiner, se necessário */
+}
+
+
+body {
+    background-color: #f8f9fa; /* Cor de fundo do Bootstrap */
+}
+
+#welcome-section {
+    padding: 100px 0;
+    text-align: center;
+}
+
+#menu-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+#menu-buttons a {
+    margin: 0 10px;
+}
+
+@keyframes fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fade-up {
+    animation: fadeUp 1.5s ease-out;
+}
+
