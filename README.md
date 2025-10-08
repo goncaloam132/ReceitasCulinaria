@@ -17,7 +17,7 @@ It uses **Bootstrap** and **Bootstrap Icons** for styling and UI components.
 # Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/culinary-recipes.git
+   git clone https://github.com/goncaloam132/ReceitasCulinaria.git
 
 # Contributing
 1. Fork the repository
