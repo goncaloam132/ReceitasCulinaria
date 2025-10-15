@@ -1,5 +1,9 @@
 # Culinary Recipes Web App
 
+![](assets/img/image.png)
+![](assets/img/image1.png)
+![](assets/img/image2.png)
+
 This is a simple PHP-based web application for managing and viewing culinary recipes.  
 It uses **Bootstrap** and **Bootstrap Icons** for styling and UI components.
 
